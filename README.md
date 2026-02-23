@@ -20,8 +20,11 @@ print(friends)
   #Adding more friends to my list using the Append operation
 
 friends = ['John', 'Peter', 'Mary', 'Agnes', 'Paul']
+
 more_friends = ['Blessing', 'James', 'Faith', 'Favour']
+
 friends.append(more_friends)
+
 print(friends)
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_append.png)
@@ -32,9 +35,11 @@ print(friends)
    #using extend  to add more friends without returning list
 
 friends = ['John', 'Peter', 'Mary', 'Agnes', 'Paul']
+
 more_friends = ['Blessing', 'James', 'Faith', 'Favour']
 
 friends.extend(more_friends)
+
 print(friends)
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_extend.png)
@@ -45,7 +50,9 @@ print(friends)
   #using the insert operation to add a name to the friend list as the first friend.
 
 friends = ['John', 'Peter', 'Mary', 'Agnes', 'Paul', 'Blessing', 'James', 'Faith', 'Favour']
+
 friends.insert(0, 'Angela')
+
 print(friends)
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_insert.png)
@@ -56,7 +63,9 @@ print(friends)
   #using the remove function to remove a name that from friends
 
 friends = ['Angela', 'John', 'Peter', 'Mary', 'Agnes', 'Paul', 'Blessing', 'James', 'Faith', 'Favour']
+
 friends.remove('Paul')
+
 print(friends)
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_remove.png)
@@ -94,6 +103,7 @@ friends.count('Blessing')
 #using *sort function* to arrange the names in ascending order
 
 friends.sort()
+
 print(friends)
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_sort.png)
@@ -104,6 +114,7 @@ print(friends)
 #using the reverse function to arrange the names in a descending order
 
 friends.reverse()
+
 friends
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/List_reverse.png)
 
@@ -144,8 +155,11 @@ myfriends_details = dict([('names',['Agnes', 'James', 'John', 'Mary',]),
                            ('City', ['Lagos', 'Abuja', 'Enugu', 'Kaduna'])])
 
 print(myfriends_details)
+
 print(myfriends_details.get('names'))
+
 print(myfriends_details.get('Age'))
+
 print(myfriends_details.get('City'))
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/Dictionary.png)
@@ -159,9 +173,13 @@ myfriends_details = {'friend1':{'name': 'Agnes', 'Age': 20, 'City': 'Lagos'},
                      'friend4': {'Name': 'John', 'Age': 25, 'City': 'Enugu' }
                      }
 
+
 print(myfriends_details.get('friend1'))
+
 print(myfriends_details.get('friend2'))
+
 print(myfriends_details.get('freind3'))
+
 print(myfriends_details.get('friend4'))
 
 ![](https://github.com/sopy-anne/Data-Science-Machine-Learning-Lab/blob/main/Nexted_Dictionary.png)
